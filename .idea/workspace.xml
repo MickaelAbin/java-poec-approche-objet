@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02aca552-224f-42f5-bcb3-19dd08cfa516" name="Changes" comment="java POO getter/setter des constructeurs">
-      <change afterPath="$PROJECT_DIR$/src/utils/ConversionNombre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="02aca552-224f-42f5-bcb3-19dd08cfa516" name="Changes" comment="java POO methodes statiques">
+      <change afterPath="$PROJECT_DIR$/src/fr/epsi/banque/TestBanque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/epsi/banque/entites/Compte.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +48,13 @@
   <component name="ProjectId" id="2cJVQQrTVEJUSyCDniCqHIXDk0v" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ConversionNombre.executor": "Run",
     "Application.TestAdressePostale.executor": "Run",
+    "Application.TestBanque.executor": "Run",
     "Application.TestPersonne.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -91,7 +91,7 @@
       <updated>1707829653939</updated>
       <workItem from="1707829655068" duration="1793000" />
       <workItem from="1707839431633" duration="420000" />
-      <workItem from="1707897959929" duration="10111000" />
+      <workItem from="1707897959929" duration="11062000" />
     </task>
     <task id="LOCAL-00001" summary="java POO initiation">
       <option name="closed" value="true" />
@@ -133,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707910197395</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="java POO methodes statiques">
+      <option name="closed" value="true" />
+      <created>1707913071132</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707913071132</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +152,8 @@
     <MESSAGE value="java POO correction" />
     <MESSAGE value="java POO utilisation des constructeurs" />
     <MESSAGE value="java POO getter/setter des constructeurs" />
-    <option name="LAST_COMMIT_MESSAGE" value="java POO getter/setter des constructeurs" />
+    <MESSAGE value="java POO methodes statiques" />
+    <option name="LAST_COMMIT_MESSAGE" value="java POO methodes statiques" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
