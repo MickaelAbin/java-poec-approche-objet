@@ -23,8 +23,13 @@ public class TestPersonne {
 //        p2.adressePostale.libelleRue = " Maurice Jouaud";
 //        p2.adressePostale.ville = "Rezé";
 
-        Personne p = new Personne("Abin", "Mickael",new AdressePostale(99,"Rue Maurice Jouaud",44400,"Rezé"));
-        Personne p2 = new Personne("Coisy","Aurelie");
+        Personne p = new Personne("Abin", "Mickael", new AdressePostale(99, "Rue Maurice Jouaud", 44400, "Rezé"));
+        Personne p2 = new Personne("Coisy", "Aurelie");
+        p.affichageNomPrenom();
+        System.out.println(p.getAdressePostale());
+//      p.setAdressePostale(new AdressePostale(5));
+        System.out.println(p.getAdressePostale());
+        System.out.println(p.getAdressePostale().getVille());
     }
 }
 
