@@ -1,9 +1,27 @@
 package entites;
 
 public class Personne {
-    public String nom;
+//    public String nom;
+//
+//    public  String prenom;
+//
+//    public AdressePostale adressePostale;
 
-    public  String prenom;
 
-    public AdressePostale adressePostale;
+    String nom;
+
+    String prenom;
+
+    AdressePostale adressePostale;
+
+    public Personne(String nom, String prenom, AdressePostale adressePostale) {
+        this.nom = nom;
+        this.prenom = prenom;
+        this.adressePostale = adressePostale;
+    }
+
+    public Personne(String nom, String prenom) {
+        this.nom = nom;
+        this.prenom = prenom;
+    }
 }
