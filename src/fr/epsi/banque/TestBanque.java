@@ -8,9 +8,13 @@ public class TestBanque {
 //        Compte compte = new Compte(51545637,2500);
 //        System.out.println(compte);
 
+
         Compte [] comptes = {new Compte(1234564564,7500),new CompteTaux(58645354,2500,2.5)};
         for (int i = 0; i < comptes.length ; i++) {
             System.out.println(comptes[i]);
+        }
+        for (Compte compte : comptes){
+            System.out.println(compte);
         }
     }
 }
