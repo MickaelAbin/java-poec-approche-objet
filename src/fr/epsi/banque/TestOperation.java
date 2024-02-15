@@ -27,6 +27,5 @@ public class TestOperation {
 
             System.out.printf("%s effectué le %s de %s euros,le solde de votre compte est de %s euros\n",operation.afficherType(),operation.getDateOperation(),operation.getMontantOperation(),solde);
         }
-        System.out.println(solde);
     }
 }
