@@ -27,7 +27,8 @@ public class TestPersonne {
         Personne p2 = new Personne("Coisy", "Aurelie");
         p.affichageNomPrenom();
         System.out.println(p.getAdressePostale());
-//      p.setAdressePostale(new AdressePostale(5));
+        p.getAdressePostale().setNumeroRue(5);
+        p.setAdressePostale(new AdressePostale(12,"rue ML",44400,"nantes"));
         System.out.println(p.getAdressePostale());
         System.out.println(p.getAdressePostale().getVille());
     }

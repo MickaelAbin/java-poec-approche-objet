@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02aca552-224f-42f5-bcb3-19dd08cfa516" name="Changes" comment="java POO methodes statiques">
-      <change afterPath="$PROJECT_DIR$/src/fr/epsi/banque/TestBanque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/epsi/banque/entites/Compte.java" afterDir="false" />
+    <list default="true" id="02aca552-224f-42f5-bcb3-19dd08cfa516" name="Changes" comment="java POO encapsulation">
+      <change afterPath="$PROJECT_DIR$/src/entites/Cercle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/essais/TestCercle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/epsi/banque/entites/CompteTaux.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/essais/TestPersonne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/essais/TestPersonne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/epsi/banque/TestBanque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/epsi/banque/TestBanque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/epsi/banque/entites/Compte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/epsi/banque/entites/Compte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/ConversionNombre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/ConversionNombre.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,30 +56,31 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ConversionNombre.executor": "Run",
-    "Application.TestAdressePostale.executor": "Run",
-    "Application.TestBanque.executor": "Run",
-    "Application.TestPersonne.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/EPSI/IdeaProjects/epsi/poec/approche-objet/approche-objet/src/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ConversionNombre.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestAdressePostale.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestBanque.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCercle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestPersonne.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/EPSI/IdeaProjects/epsi/poec/approche-objet/approche-objet/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.notifications&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -91,7 +98,9 @@
       <updated>1707829653939</updated>
       <workItem from="1707829655068" duration="1793000" />
       <workItem from="1707839431633" duration="420000" />
-      <workItem from="1707897959929" duration="11062000" />
+      <workItem from="1707897959929" duration="13000000" />
+      <workItem from="1707916028758" duration="6487000" />
+      <workItem from="1707984268673" duration="3620000" />
     </task>
     <task id="LOCAL-00001" summary="java POO initiation">
       <option name="closed" value="true" />
@@ -141,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707913071132</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="java POO encapsulation">
+      <option name="closed" value="true" />
+      <created>1707914007572</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707914007572</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +170,8 @@
     <MESSAGE value="java POO utilisation des constructeurs" />
     <MESSAGE value="java POO getter/setter des constructeurs" />
     <MESSAGE value="java POO methodes statiques" />
-    <option name="LAST_COMMIT_MESSAGE" value="java POO methodes statiques" />
+    <MESSAGE value="java POO encapsulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="java POO encapsulation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

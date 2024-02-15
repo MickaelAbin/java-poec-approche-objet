@@ -2,7 +2,7 @@ package utils;
 
 public class ConversionNombre {
     public static void main(String[] args) {
-        String nombreEntier = "475";
+        String nombreEntier = "748";
 
         int nombre = Integer.parseInt(nombreEntier);
         System.out.println(nombre);
